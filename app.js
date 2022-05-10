@@ -45,11 +45,11 @@ function standardTime() {
 
     // Checking the current time to recognize whether or not it is AM or PM
     // Doing it this way looks better than adding "hour12: true" since we can put AM or PM in its own div
-    var checkHours = (hours >= 12 && hours < 24) ? 'PM' : "AM";
+    let checkHours = (hours >= 12 && hours < 24) ? 'PM' : "AM";
 
     // Variable used to get the hours converted from (1-24 hour range) to (1-12 hour range) 
     // Done so by grabbing the remainder of (current hour + 24 / 12)
-    var convertHours = (hours + 24) % 12;
+    let convertHours = (hours + 24) % 12;
     if(convertHours < 10) { // adding a leading zero to hours if the hours are single digits (looks better)
         convertHours = '0' + convertHours;
     }
