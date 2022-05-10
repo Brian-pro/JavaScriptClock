@@ -19,3 +19,6 @@ There were four challenges that occurred throughout this project that stood out 
 3. Event Listeners
 4. Creating Elements in JavaScript Files
 5. Practice of CSS Styling and Code Documentation
+
+## Credit to Fontawesome for providing icons
+Credit to [Fontawesome](https://fontawesome.com/) for providing the icons that I used for my github and linkedin social links.
