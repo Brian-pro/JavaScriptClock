@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100;1,200&display=swap');
+
+/*  Color Palette Options
+
+    Button Option 1: 
+    - #ffe4e4: Button color
+    - #464141: Button color:hover
+
+    Button Option 2: 
+    - #bffcf9: Button color
+    - #47807f: Button color:hover
+
+    Button Option 3:
+    - #ff7aae: Button color
+    - #d3fbd8: Button color:hover
+
+    Text color:
+    - #d3fbd8: lime
+*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+    margin: 0;
+    padding: 0;
+    background-color: #1b1717;
+    color: #d3fbd8;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+/* content wrapper */
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    width: 60%;
+    padding: 0px 10px;
+}
+
+/* Header */
+#header {
+    border-bottom: 0.1px solid #d3fbd8;
+}
+
+/* container for the clock being displayed */
+#clock-wrapper {
+    text-align: center;
+    width: 50%;
+    background-color: #252323;
+    border-radius: 5px;
+    font-size: 100px;
+    padding: 0px 120px;
+}
+
+#clock-wrapper-standard {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    background-color: #252323;
+    border-radius: 5px;
+    font-size: 100px;
+    padding: 0px 120px;
+}
+
+/* Toggle buttons */
+.toggle-button {
+    display: inline;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff7aae;
+    color: #1b1717;;
+    cursor: pointer;
+    font-size: large;
+    width: 100px;
+    height: 30px;
+    margin: 10px 0px;
+    transition: background-color 0.15s;
+}
+
+.toggle-button:hover {
+    background-color: #e0558a;
+}
+
+
+/* Signature */
+.signature {
+    font-size: medium;
+}
+
+/* Social links */
+.social-links {
+    width: 5%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.social-links > li > a {
+    text-decoration: none;
+}
+
+.fa-linkedin {
+    color: #0e76a8;
+}
+
+.fa-linkedin:hover {
+    color: #FFF;
+}
+
+.fa-github {
+    color: #4078c0;
+}
+
+.fa-github:hover {
+    color: #FFF;
+}
