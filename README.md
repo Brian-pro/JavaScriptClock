@@ -5,7 +5,7 @@ This project was focused on vanilla JavaScript that consisted of a clock that ca
 
 Deployed using Netlify:
 
-https://dainty-chimera-ae0c2f.netlify.app/
+https://resplendent-sherbet-1e2431.netlify.app/
 
 ## Purpose
 The purpose behind this project was so that I can start putting my javascript knowledge to the test. I am currently looking to do more of the common beginner JavaScript focused projects so that I can increase my knowledge of the language and become an overall better web developer. More projects to come!
